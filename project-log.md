@@ -9,7 +9,19 @@
 **Resources**
 
 ----------------------------------------------------------
-## February 16, 2021 
+## February 17, 2021 (Day 36 #100DaysofCode)
+
+**Today's Progress**:
+- Used flexbox to style header. Set `display:flex` on parent header element and then set `display:flex` on nav element so menu items would line up horizontally. I then adjusted the `padding-left` property on the nav menu items to get appropriate spacing.
+
+**Thoughts**: 
+- Learned about the `list-style-position` CSS property that is used for styling lists. It sets the position of the marker relative to a list (marker for unordered list = bullet(default), marker for ordered list(numbers)). You can set it to `outside` (default) and `inside`.
+
+**Resources**
+1. [list-style-position property for styling lists](https://stackoverflow.com/questions/11556493/second-line-in-li-starts-under-the-bullet-after-css-reset/11556534)
+
+----------------------------------------------------------
+## February 16, 2021 (Day 35 #100DaysofCode)
 
 **Today's Progress**:
 - Started working on basic HTML structure for site with incorporation of CSS flexbox for the layout
