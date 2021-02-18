@@ -29,44 +29,151 @@ time, mark, audio, video {
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    background-color: pink;
+    background-color:#FEB4AF;
+    padding: 15px;
+    align-items: center;
 }
 
 #logo {
+    font-size: 20px;
+    text-transform: uppercase;
     padding-left: 3rem;
+    letter-spacing: 2.5px;
 }
+
+#logo a {
+    text-decoration: none;
+}
+
 
 nav ul {
     list-style-type: none;
     display: flex;
     padding-right: 3rem;
+    text-transform: uppercase;
+}
+
+nav ul a {
+    padding-left: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul a:hover, a:hover {
+    color: #76520e;
+}
+
+a:link {
+    color: #000;
+    text-decoration-color: #FE7062;
+}
+
+a:visited {
+    color: #000;
 }
 
 .hero {
     text-align: left;
-    background: purple;
+    background: #E4EBFD;
     display: flex;
     align-items: center;
 }
 
 .hero h1 {
-    font-size: 70px;
+    padding-left: 3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+.fa-seedling {
+    font-size: 50px;
 }
 
 article {
-    background-color: orange;
+    background-color: #FFF;
+    max-width: 900px;
+    margin: 0px auto 80px;
+    padding: 0 65px;
+}
+
+.article-title {
+    text-align: center;
+    margin: 50px 50px 70px;
+}
+
+article h3 {
+    text-decoration: underline;
+    text-decoration-color: #FEB4AF;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    margin: 30px 0;
+    line-height: 1.5;
+    list-style-position: outside;
+}
+
+.info-box ul {
+    margin: 16px 0 0 16px;
+
+
 }
 
 
 .learn-more {
-    background: purple;
+    background: #FEB4AF;
+    padding: 90px 30px;
+    text-align: center;
+}
+
+.learn-more h3 {
+    padding-bottom: 20px;
+}
+
+.learn-more a:hover {
+    color: #76520e;
 }
 
 footer {
-    background: #000;
-    color: #fff;
+    background: #FE7062;
+    color: #000;
     text-align: center;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+
+footer a:link {
+    color: #000;
+    text-decoration: none;
 }
